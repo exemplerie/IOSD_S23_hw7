@@ -7,96 +7,49 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "856579AE-EBCE-4DCE-A97B-C442B28A60F8"
-            shouldBeEnabled = "No"
+            uuid = "2AF78952-9B65-4D03-81DC-C07A7370372E"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Lab_4/CustomTableViewCell.swift"
+            filePath = "Lab_4/Services/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "setUpData(_:)"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchCharacter(ID:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C7CF285D-262C-4792-8463-B2C24A6C2849"
-            shouldBeEnabled = "No"
+            uuid = "49E2C963-6873-4F8B-9202-460C80BCCB9F"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Lab_4/CustomTableViewCell.swift"
+            filePath = "Lab_4/Services/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "setUpData(_:)"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "fetchCharacter(ID:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BFC0DBD9-CF62-4116-ACA8-80E4DE372BDC"
-            shouldBeEnabled = "No"
+            uuid = "94CF1465-7EDE-4E59-9B01-7CB4B22B2800"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Lab_4/ViewController.swift"
+            filePath = "Lab_4/Services/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "changeLocation(with:value:)"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "request(target:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "BFC0DBD9-CF62-4116-ACA8-80E4DE372BDC - 474e4e6b8310cb56"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Lab_4.ViewController.changeLocation(with: Swift.Int, value: Swift.String) -&gt; ()"
-                  moduleName = "Lab_4"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/exemplerie/Swift/Lab_4/Lab_4/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58"
-                  offsetFromSymbolStart = "372">
-               </Location>
-               <Location
-                  uuid = "BFC0DBD9-CF62-4116-ACA8-80E4DE372BDC - 474e4e6b8310cb37"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Lab_4.ViewController.changeLocation(with: Swift.Int, value: Swift.String) -&gt; ()"
-                  moduleName = "Lab_4"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/exemplerie/Swift/Lab_4/Lab_4/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "300">
-               </Location>
-               <Location
-                  uuid = "BFC0DBD9-CF62-4116-ACA8-80E4DE372BDC - 474e4e6b8310cb37"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Lab_4.ViewController.changeLocation(with: Swift.Int, value: Swift.String) -&gt; ()"
-                  moduleName = "Lab_4"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/exemplerie/Swift/Lab_4/Lab_4/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "59"
-                  endingLineNumber = "59"
-                  offsetFromSymbolStart = "304">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

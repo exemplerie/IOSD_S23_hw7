@@ -13,7 +13,7 @@ protocol DetailViewControllerDelegate: AnyObject {
 }
 
 final class DetailViewController: UIViewController {
-    var data: Character? {
+    var data: CharacterResponseModel? {
         didSet {
             guard let data else {return}
             setUpData(data)
@@ -31,14 +31,14 @@ final class DetailViewController: UIViewController {
     var delegate: DetailViewControllerDelegate?
     
 
-    private func setUpData(_ data: Character) {
-        imageView.image = UIImage(named: "/Users/exemplerie/Swift/Lab_4/Lab_4/Assets.xcassets/rick_and_morty/" + data.image)
+    private func setUpData(_ data: CharacterResponseModel) {
+        imageView.download(from: data.image)
         id.text = String(data.id)
         name.text = data.name
-        status.text = String(describing: data.status)
+        status.text = data.status
         species.text = data.species
-        gender.text = String(describing: data.gender)
-        location.text = data.location
+        gender.text = data.gender
+        location.text = data.location.name
     }
     
     

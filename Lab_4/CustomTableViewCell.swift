@@ -42,20 +42,17 @@ class CustomTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
-    func setUpData(_ data: Character) {
-        iconImageView.image = UIImage(named: "/Users/exemplerie/Swift/Lab_4/Lab_4/Assets.xcassets/rick_and_morty/" + data.image)
+    func setUpData(_ data: CharacterResponseModel) {
+        iconImageView.download(from: data.image)
         name.text = data.name
         species.text = data.species
-        location.text = data.location
+        location.text = data.location.name
     }
     
     override func prepareForReuse() {
