@@ -268,13 +268,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="gender" destination="S7Z-NB-iS5" id="Tc8-Z1-iYf"/>
-                        <outlet property="id" destination="6hv-rY-TOs" id="foU-Ge-SPw"/>
-                        <outlet property="imageView" destination="xsG-3g-Xwr" id="dyo-BM-fZD"/>
-                        <outlet property="location" destination="5LW-8w-LU1" id="3Al-cm-d4B"/>
-                        <outlet property="name" destination="5Tu-tN-6Ea" id="ipf-Kj-XKG"/>
-                        <outlet property="species" destination="wZC-oY-Vgc" id="NJU-NS-E4p"/>
-                        <outlet property="status" destination="3z6-1B-ScA" id="03B-RI-dQw"/>
+                        <outlet property="gender" destination="S7Z-NB-iS5" id="Ub2-fD-Acc"/>
+                        <outlet property="id" destination="6hv-rY-TOs" id="aIu-kl-VMQ"/>
+                        <outlet property="imageView" destination="xsG-3g-Xwr" id="m3V-SY-MnH"/>
+                        <outlet property="location" destination="5LW-8w-LU1" id="Xy5-bT-PVd"/>
+                        <outlet property="name" destination="5Tu-tN-6Ea" id="AFl-H9-109"/>
+                        <outlet property="species" destination="wZC-oY-Vgc" id="z6P-2F-xSB"/>
+                        <outlet property="status" destination="3z6-1B-ScA" id="Kb0-07-tGh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="izo-qt-3bL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

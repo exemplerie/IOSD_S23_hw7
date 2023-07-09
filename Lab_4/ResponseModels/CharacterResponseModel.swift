@@ -5,23 +5,21 @@
 //  Created by Валерия Харина on 02.07.2023.
 //
 
-import Foundation
-
-struct Location: Codable {
-    var name: String
-    
-    enum CodingKeys: String, CodingKey {
-        case name
-    }
-}
-
 struct CharacterResponseModel: Codable {
-    let id: Int
-    var name, status, species, gender: String
-    let image: String
-    var location: Location
-    
+    let results: [Character]
+    struct Location: Codable {
+        var name: String
+    }
+    struct Character: Codable {
+        let id: Int
+        let name: String
+        let status: String
+        var species: String
+        let gender: String
+        var location: Location
+        let image: String
+    }
     enum CodingKeys: String, CodingKey {
-        case id, name, status, species, image, location, gender
+        case results
     }
 }

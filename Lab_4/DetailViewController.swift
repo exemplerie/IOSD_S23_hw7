@@ -13,7 +13,7 @@ protocol DetailViewControllerDelegate: AnyObject {
 }
 
 final class DetailViewController: UIViewController {
-    var data: CharacterResponseModel? {
+    var data: Character? {
         didSet {
             guard let data else {return}
             setUpData(data)
@@ -31,14 +31,14 @@ final class DetailViewController: UIViewController {
     var delegate: DetailViewControllerDelegate?
     
 
-    private func setUpData(_ data: CharacterResponseModel) {
-        imageView.download(from: data.image)
+    private func setUpData(_ data: Character) {
+        imageView.download(from: data.image!)
         id.text = String(data.id)
         name.text = data.name
         status.text = data.status
         species.text = data.species
         gender.text = data.gender
-        location.text = data.location.name
+        location.text = data.location
     }
     
     
@@ -51,7 +51,7 @@ final class DetailViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Done", style: .default) { [self] _ in
             if let newValue = alert.textFields?.first?.text {
                 guard let data else {return}
-                delegate?.changeSpecies(with: data.id, value: newValue)
+                delegate?.changeSpecies(with: Int(data.id), value: newValue)
                         }
         })
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
@@ -66,7 +66,7 @@ final class DetailViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "Done", style: .default) { [self] _ in
             if let newValue = alert.textFields?.first?.text {
                 guard let data else {return}
-                delegate?.changeLocation(with: data.id, value: newValue)
+                delegate?.changeLocation(with: Int(data.id), value: newValue)
                         }
         })
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))

@@ -10,8 +10,8 @@ import Foundation
 
 protocol NetworkManagerProtocol {
     var provider: MoyaProvider<APITarget> { get }
-    func fetchCharacters(completion: @escaping (Result<[CharacterResponseModel], Error>) -> Void)
-    func fetchCharacter(ID: Int, completion: @escaping (Result<CharacterResponseModel, Error>) -> Void)
+    func fetchCharacters(completion: @escaping (Result<CharacterResponseModel, Error>) -> Void)
+    func fetchCharacter(ID: Int, completion: @escaping (Result<CharacterResponseModel.Character, Error>) -> Void)
 
     
 }
@@ -19,11 +19,11 @@ protocol NetworkManagerProtocol {
 class NetworkManager: NetworkManagerProtocol {
     var provider = MoyaProvider<APITarget>()
     
-    func fetchCharacters(completion: @escaping (Result<[CharacterResponseModel], Error>) -> Void) {
+    func fetchCharacters(completion: @escaping (Result<CharacterResponseModel, Error>) -> Void) {
         request(target: .getCharacters, completion: completion)
     }
     
-    func fetchCharacter(ID: Int, completion: @escaping (Result<CharacterResponseModel, Error>) -> Void) {
+    func fetchCharacter(ID: Int, completion: @escaping (Result<CharacterResponseModel.Character, Error>) -> Void) {
         request(target: .getCharacter(ID: ID), completion: completion)
     }
 }

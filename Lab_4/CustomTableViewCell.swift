@@ -7,29 +7,16 @@
 
 import UIKit
 
-
-struct Character {
-    enum Status {
-        case alive
-        case dead
-        case unknown
-    }
-    
-    enum Gender {
-        case female
-        case male
-        case genderless
-        case unknown
-    }
-    
-    let id: Int
-    let name: String
-    let status: Status
-    var species: String
-    let gender: Gender
-    var location: String
-    let image: String
-}
+//
+//struct Character {
+//    let id: Int
+//    let name: String
+//    let status: String
+//    var species: String
+//    let gender: String
+//    var location: String
+//    let image: String
+//}
 
 class CustomTableViewCell: UITableViewCell {
     
@@ -48,11 +35,11 @@ class CustomTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
     
-    func setUpData(_ data: CharacterResponseModel) {
-        iconImageView.download(from: data.image)
+    func setUpData(_ data: Character) {
+        iconImageView.download(from: data.image!)
         name.text = data.name
         species.text = data.species
-        location.text = data.location.name
+        location.text = data.location
     }
     
     override func prepareForReuse() {
