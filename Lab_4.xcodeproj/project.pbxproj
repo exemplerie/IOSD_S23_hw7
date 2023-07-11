@@ -59,6 +59,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		173034052A5C07550018E647 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17EB4D212A515E3500F405B4 /* CharacterResponseModel.swift */,
+				171928352A59C814005EC818 /* PersistentContainer.swift */,
+				1750C8342A50B94A008A306E /* Services */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		173034062A5C07760018E647 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17FCE04E2A4C710800B6E781 /* CustomTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		173034072A5C08830018E647 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				17FCE03E2A4C6B3F00B6E781 /* ViewController.swift */,
+				17DC87B42A4DA3E500A20BD5 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		1750C8342A50B94A008A306E /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,14 +101,6 @@
 				17DBD8752A56B7C30017E32B /* UIImageView+Extensions.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		17EB4D202A515E1500F405B4 /* ResponseModels */ = {
-			isa = PBXGroup;
-			children = (
-				17EB4D212A515E3500F405B4 /* CharacterResponseModel.swift */,
-			);
-			path = ResponseModels;
 			sourceTree = "<group>";
 		};
 		17FCE02E2A4C6B3F00B6E781 = {
@@ -105,20 +124,17 @@
 		17FCE0392A4C6B3F00B6E781 /* Lab_4 */ = {
 			isa = PBXGroup;
 			children = (
+				173034072A5C08830018E647 /* Controller */,
+				173034062A5C07760018E647 /* View */,
+				173034052A5C07550018E647 /* Model */,
 				17DBD8742A56B7850017E32B /* Extensions */,
-				17EB4D202A515E1500F405B4 /* ResponseModels */,
-				1750C8342A50B94A008A306E /* Services */,
 				17FCE03A2A4C6B3F00B6E781 /* AppDelegate.swift */,
 				17FCE03C2A4C6B3F00B6E781 /* SceneDelegate.swift */,
-				17FCE03E2A4C6B3F00B6E781 /* ViewController.swift */,
 				17FCE0402A4C6B3F00B6E781 /* Main.storyboard */,
 				17FCE0432A4C6B4000B6E781 /* Assets.xcassets */,
 				17FCE0452A4C6B4000B6E781 /* LaunchScreen.storyboard */,
 				17FCE0482A4C6B4000B6E781 /* Info.plist */,
-				17FCE04E2A4C710800B6E781 /* CustomTableViewCell.swift */,
-				17DC87B42A4DA3E500A20BD5 /* DetailViewController.swift */,
 				1719282E2A59C4C2005EC818 /* Model.xcdatamodeld */,
-				171928352A59C814005EC818 /* PersistentContainer.swift */,
 			);
 			path = Lab_4;
 			sourceTree = "<group>";

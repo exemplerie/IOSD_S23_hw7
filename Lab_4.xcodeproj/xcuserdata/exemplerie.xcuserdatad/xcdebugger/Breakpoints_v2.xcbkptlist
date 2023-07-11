@@ -49,6 +49,21 @@
                   endingLineNumber = "27"
                   offsetFromSymbolStart = "72">
                </Location>
+               <Location
+                  uuid = "2AF78952-9B65-4D03-81DC-C07A7370372E - 25126f587fb8fbeb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lab_4.NetworkManager.fetchCharacter(ID: Swift.Int, completion: (Swift.Result&lt;Lab_4.CharacterResponseModel.Character, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Lab_4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exemplerie/Swift/IOSD_S23_hw6/Lab_4/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "72">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -91,6 +106,21 @@
                   moduleName = "Lab_4"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/exemplerie/Swift/IOSD_S23_hw5/Lab_4/Services/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "49E2C963-6873-4F8B-9202-460C80BCCB9F - 25126f587fb8fbeb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Lab_4.NetworkManager.fetchCharacter(ID: Swift.Int, completion: (Swift.Result&lt;Lab_4.CharacterResponseModel.Character, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Lab_4"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/exemplerie/Swift/IOSD_S23_hw6/Lab_4/Services/NetworkManager.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "27"
